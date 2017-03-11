@@ -1,0 +1,42 @@
+Every day Git commands to use
+
+How to submit files to github
+1. git init
+2. git add 
+3. git commit
+4. git push
+
+when repo is remote, do this
+
+git remote add origin http:??
+
+git push -u origin master
+
+making sure to have a .git folder in the directory. type ls -a and look for a folder for .git
+
+accidentally initialize a repository in the wrong directory (you don't want to make your Desktop or Home folder a git repository), you can just remove the .git folder using rm -rf .git.
+
+These commands for individual developer
+git init = creates new repository 
+
+git log = logs what has happened
+git log —oneline = displays log with only one line at a time, easier to read 
+git checkout / git branch = switch branches
+git add = add file to get pushed
+git add . = stages new and modified without deleted
+git add -A = stages all
+git add -u = stages modified and deleted, without new
+git commit -m “message”
+git checkout file = remove files form working directory before it is staged
+git clean -df = if have untracked or unmarked files use this instead of checkout
+git branch = shows what branches you have
+git checkout -b name_of_branch = to add a new branch
+git branch -D Name of Branch = delete branch
+git merge Name = merge files to different branches
+git branch -D feature = delete our branch called feature
+git diff = see changes between two commits
+
+
+
+ 
+
